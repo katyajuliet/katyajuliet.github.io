@@ -1,7 +1,8 @@
 {
   "name": "personalportfolio",
   "version": "1.0.0",
-  "homepage": "https://github.com/katyajuliet/katyajuliet.github.io",
+  "homepage": "https://katyajuliet.github.io/katyajuliet.github.io",
+  "private": true,
   "dependencies": {
     "gh-pages": "^4.0.0",
     "jquery": "^3.6.0",
@@ -13,6 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
