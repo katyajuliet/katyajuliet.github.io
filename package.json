@@ -1,7 +1,7 @@
 {
   "name": "personalportfolio",
   "version": "1.0.0",
-  "homepage": "https://katyajuliet.github.io/katyajuliet.github.io",
+  "homepage": "https://github.com/katyajuliet/katyajuliet.github.io",
   "private": true,
   "dependencies": {
     "gh-pages": "^4.0.0",
